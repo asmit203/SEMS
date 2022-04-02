@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int
+main ()
+{
+  int meter;
+  int cm;
+  printf("Enter meter value to convert in cm: \nMeter: ");
+  scanf("%d", & meter);
+  cm = meter * 100;
+  printf ("\nThe value in cm is: %d \n", cm);
+  printf("\n");
+  return 0;
+
+}
